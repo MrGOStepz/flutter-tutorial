@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
 
 class FlutterHome extends StatefulWidget {
   const FlutterHome({super.key, required this.title});
+
   final String title;
 
   @override
@@ -49,25 +50,26 @@ class _FlutterHomeState extends State<FlutterHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        // Color
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              Color.fromARGB(255, 26, 2, 80),
-              Color.fromARGB(255, 45, 7, 98),
-            ],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          )
-        ),
+            gradient: LinearGradient(
+          colors: [
+            Color.fromARGB(255, 26, 2, 80),
+            Color.fromARGB(255, 45, 7, 98),
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        )),
         child: const Center(
-          child: Text('Hello World',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-          ),),
+          child: Text(
+            'Hello World',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 28,
+            ),
+          ),
         ),
       ),
     );
   }
-
 }
