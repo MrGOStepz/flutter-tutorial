@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/basic2/answer_button.dart';
+import 'package:flutter_tutorial/quiz_question/answer_button.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'data/questions.dart';
 
@@ -50,7 +50,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 30),
-            ...currentQuestion.getShuffledAnswers().map((answer) {
+            ...currentQuestion.shuffledAnswers.map((answer) {
               return AnswerButton(
                   answerText: answer,
                   onTap: () {
