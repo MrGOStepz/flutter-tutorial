@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/starting_setup/lib/screens/meals.dart';
 
 import '../data/dummy_data.dart';
 import '../models/category.dart';
 import '../models/meal.dart';
 import '../widgets/category_grid_item.dart';
+import 'meals.dart';
 
 class CategoriesScreen extends StatefulWidget {
   const CategoriesScreen({
