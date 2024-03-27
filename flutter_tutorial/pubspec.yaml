@@ -50,6 +50,7 @@ dependencies:
   location: ^5.0.3
 #  https://pub.dev/packages/google_maps_flutter
   google_maps_flutter: ^2.6.0
+  http: ^1.2.1
 
 
 dev_dependencies:
