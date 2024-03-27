@@ -41,6 +41,15 @@ dependencies:
   transparent_image: ^2.0.1
   flutter_riverpod: ^2.5.1
   riverpod_annotation: ^2.3.5
+  image_picker: ^1.0.7
+
+#   Add Permission
+#  Add in build.gradle "ext.kotlin_version = '1.9.23'"
+#    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+#    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+  location: ^5.0.3
+#  https://pub.dev/packages/google_maps_flutter
+  google_maps_flutter: ^2.6.0
 
 
 dev_dependencies:
