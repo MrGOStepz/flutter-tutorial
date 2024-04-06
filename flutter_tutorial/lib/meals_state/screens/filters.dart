@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart%20';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../providers/filters_provider.dart';
 

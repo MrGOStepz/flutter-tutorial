@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart%20';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tutorial/native_device/models/place.dart';
 import 'package:flutter_tutorial/native_device/providers/user_places.dart';
 import 'package:flutter_tutorial/native_device/widgets/location_input.dart';
